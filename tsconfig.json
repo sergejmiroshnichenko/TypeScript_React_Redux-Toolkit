@@ -20,6 +20,33 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
+  "baseUrl": "./src",
+  "paths": {
+    "@api/*": [
+      "./api/*"
+    ],
+    "@assets/*": [
+      "./assets/*"
+    ],
+    "@components/*": [
+      "./components/*"
+    ],
+    "@pages/*": [
+      "./pages/*"
+    ],
+    "@router/*": [
+      "./router/*"
+    ],
+    "@store/*": [
+      "./store/*"
+    ],
+    "@entitiesTypes/*": [
+      "./entitiesTypes/*"
+    ],
+    "@utils/*": [
+      "./utils/*"
+    ]
+  },
   "include": [
     "src"
   ]

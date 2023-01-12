@@ -1,0 +1,49 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.formWrap {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fieldBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.button {
+  width: 100% !important;
+}
+
+.msgError {
+  font-size: 12px;
+  font-weight: 500;
+  color: brown;
+}
+
+.loginFormTitle {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.loginRequestErrorMessage {
+  margin-top: 20px;
+
+
+  & > div {
+    color: brown;
+    font-weight: 500;
+  }
+}
+
+.linkWrap {
+  margin-top: 20px;
+}
